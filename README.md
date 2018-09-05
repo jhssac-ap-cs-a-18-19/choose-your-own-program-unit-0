@@ -11,5 +11,7 @@ Your tasks are as follows:
 6. Once everyone is done, update your fork to include the programs submitted by each of your classmates (see below)
 
 _Updating your forked repo:_
+
 0. Follow [these instructions](https://help.github.com/articles/configuring-a-remote-for-a-fork/) to set up the remote for a fork. You will want to set the upstream repository for your forked repo as the original repo (the one with `jhssac-ap-cs-a-18-19` in the URL).
 1. Once you've done this, complete steps #3 and #5 [here](https://help.github.com/articles/syncing-a-fork/).
+2. Any time changes are made to the upstream repo, run those two commands again to keep your fork in sync with it.
