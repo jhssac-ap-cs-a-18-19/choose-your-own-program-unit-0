@@ -13,6 +13,10 @@ public class myProgBobby {
         itemName = in.nextLine();
         System.out.print("How much does it cost?\n");
         baseCost = in.nextInt();
+        if (!baseCost.equals(String)) {
+            System.out.println("No");
+            System.exit(0);
+        }
         System.out.print("What is your tax rate? (0% tax rate is 1, 5% is 1.05)\n");
         whatTax = in.nextDouble();
         double caCost = ((double) baseCost * caTax);
